@@ -75,7 +75,6 @@ public class Week4Homework02 {
 	 */
 	public static void useFutureTask() throws InterruptedException, ExecutionException {
 		FutureTask<Integer> task = new FutureTask<>(new Callable<Integer>() {
-
 			@Override
 			public Integer call() throws Exception {
 				return 1;
